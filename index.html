@@ -1,0 +1,39 @@
+<!-- <!DOCTYPE html> -->
+
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>RamenGo</title>
+
+
+    <link rel="stylesheet" href="/styles.scss" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>RamenGo - Monte seu Pedido</h1>
+      <form id="order-form">
+        <label for="broths">Escolha o caldo:</label>
+        <select id="broths" name="broth">
+          <!-- Options will be populated by JavaScript -->
+        </select>
+
+        <label for="proteins">Escolha a proteína:</label>
+        <select id="proteins" name="protein">
+          <!-- Options will be populated by JavaScript -->
+        </select>
+
+        <button type="submit">Fazer Pedido</button>
+      </form>
+      <div id="order-result"></div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
